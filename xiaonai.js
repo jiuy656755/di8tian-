@@ -1,3 +1,15 @@
+[rewrite_local]
+
+#小白学习打印
+https://api.xbxxhz.com/graphql url script-response-body https://raw.githubusercontent.com/jiuy656755/di8tian-/refs/heads/main/xiaonai.js 
+
+#小白智慧打印
+https://epbox.gongfudou.com/graphql url script-response-body https://raw.githubusercontent.com/jiuy656755/di8tian-/refs/heads/main/xiaonai.js
+
+[mitm] 
+
+hostname = api.xbxxhz.com, epbox.gongfudou.com
+
 */
 
 var body = $response.body;
